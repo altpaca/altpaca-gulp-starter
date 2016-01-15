@@ -130,3 +130,4 @@ gulp.task('serve-prod', ['build-prod'], function () {
     gulp.watch([paths.source + '**/*.styl'], ['prod-styles']);
     gulp.watch([paths.source + '**/*.js'], ['optimize-files']);
 });
+
