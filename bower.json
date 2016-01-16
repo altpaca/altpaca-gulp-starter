@@ -18,6 +18,7 @@
   "dependencies": {
     "components-font-awesome": "~4.5.0",
     "jquery.cycle2": "https://raw.github.com/malsup/malsup.github.com/master/jquery.cycle2.js",
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "normalize.css#~3.0.3",
+    "Materialize": "materialize#~0.97.5"
   }
 }

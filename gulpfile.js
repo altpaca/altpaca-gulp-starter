@@ -55,6 +55,7 @@ gulp.task('dev-styles', function () {
 
 gulp.task('dev-jade', ['inject-js']);
 
+// Build and inject all files for development
 gulp.task('build-dev', ['dev-jade', 'dev-styles']);
 
 
@@ -130,4 +131,3 @@ gulp.task('serve-prod', ['build-prod'], function () {
     gulp.watch([paths.source + '**/*.styl'], ['prod-styles']);
     gulp.watch([paths.source + '**/*.js'], ['optimize-files']);
 });
-
